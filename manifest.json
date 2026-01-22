@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Yoink",
+  "version": "1.0",
+  "description": "Extracts the first iframe from the page and opens it in a new tab.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
